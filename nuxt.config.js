@@ -1,6 +1,9 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
+  router: {
+    base: '/test-nuxt-autodeploy/'
+  },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
